@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  position: relative;
+  font-family: 'Source Code Pro', Arial, serif, sans-serif;
+  max-width: 1080px;
+}
+li {
+  list-style: none;
+}
+div {
+  position: relative;
+}
+header h1 {
+  margin: 0;
+  font-size: 100px;
+  letter-spacing: 21px;
+  text-align: center;
+  position: fixed;
+  background-color: white;
+  z-index: 1;
+}
+header h2 {
+  float: right;
+  font-size: 70px;
+  margin: 12% 0%;
+  width: 50%;
+  padding: 0% 5%;
+  letter-spacing: 10px;
+  text-align: right;
+}
+div:first-of-type {
+  padding:0, 2%;
+}
+.summary {
+  width: 50%;
+  padding: 0%;
+  position: absolute;
+  top: 230px;
+  right: 435px;
+  text-align: right;
+  font-size: 20px;
+}
+.preamble {
+  clear: both;
+  padding: 0% 5%;
+  width: 50%;
+  float: left;
+}
+.main.supporting {
+  clear:both;
+}
+
+.zen-resources, .design-archives {
+  text-align: center;
+}
+.zen-resources h3, .design-archives h3 {
+  text-align: left;
+}
+.zen-resources li, .design-archives li {
+  display: inline;
+  padding: 2%;
+}
