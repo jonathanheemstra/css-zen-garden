@@ -49,7 +49,14 @@ div:first-of-type {
 .main.supporting {
   clear:both;
 }
-
+.explanation, .benefits {
+  float: left;
+  width: 50%;
+}
+.participation, .requirements {
+  float: right;
+  width: 50%;
+}
 .zen-resources, .design-archives {
   text-align: center;
 }
@@ -59,4 +66,7 @@ div:first-of-type {
 .zen-resources li, .design-archives li {
   display: inline;
   padding: 2%;
+}
+.sidebar {
+  clear: both;
 }
