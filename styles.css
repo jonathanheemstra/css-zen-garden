@@ -12,12 +12,13 @@ div {
 }
 header h1 {
   margin: 0;
-  font-size: 100px;
+  font-size: 93px;
   letter-spacing: 21px;
   text-align: center;
   position: fixed;
   background-color: white;
   z-index: 1;
+  max-width: 1080px;
 }
 header h2 {
   float: right;
@@ -40,22 +41,18 @@ div:first-of-type {
   text-align: right;
   font-size: 20px;
 }
-.preamble {
-  clear: both;
-  padding: 0% 5%;
-  width: 50%;
-  float: left;
-}
 .main.supporting {
   clear:both;
 }
 .explanation, .benefits {
   float: left;
   width: 50%;
+  clear: both;
 }
-.participation, .requirements {
+.participation, .requirements, .preamble {
   float: right;
   width: 50%;
+  clear: both;
 }
 .zen-resources, .design-archives {
   text-align: center;
@@ -69,4 +66,10 @@ div:first-of-type {
 }
 .sidebar {
   clear: both;
+}
+footer {
+  float: right;
+  clear:both;
+  width: 50%;
+  text-align: center;
 }
