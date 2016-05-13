@@ -12,3 +12,5 @@ $("a[href='#top']").click(function() {
   $("html, body").animate({ scrollTop: 0 }, "slow");
   return false;
 });
+
+//http://codepen.io/hollart13/post/fade-in-on-scroll

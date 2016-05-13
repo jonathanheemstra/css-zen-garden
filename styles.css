@@ -54,18 +54,17 @@ div:first-of-type {
   width: 50%;
   clear: both;
 }
-.zen-resources, .design-archives {
-  text-align: center;
-}
 .zen-resources h3, .design-archives h3 {
   text-align: left;
 }
-.zen-resources li, .design-archives li {
-  display: inline;
-  padding: 2%;
-}
 .sidebar {
   clear: both;
+  width: 50%;
+  position: absolute;
+  top:1930px;
+}
+.sidebar li {
+  padding: 1% 0;
 }
 footer {
   float: right;
