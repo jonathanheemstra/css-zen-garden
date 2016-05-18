@@ -32,6 +32,9 @@ header h2 {
 div:first-of-type {
   padding:0, 2%;
 }
+nav ul {
+  padding:0;
+}
 .summary {
   width: 50%;
   padding: 0%;
@@ -57,11 +60,16 @@ div:first-of-type {
 .zen-resources h3, .design-archives h3 {
   text-align: left;
 }
+.zen-resources ul {
+  padding:0;
+}
 .sidebar {
   clear: both;
-  width: 50%;
+  width: 35%;
   position: absolute;
   top:1930px;
+  padding: 0 2%;
+  background-color: grey;
 }
 .sidebar li {
   padding: 1% 0;
