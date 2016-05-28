@@ -1,82 +1,85 @@
 body {
-  margin: 0 auto;
-  position: relative;
-  font-family: 'Source Code Pro', Arial, serif, sans-serif;
-  max-width: 1080px;
+    margin: 0 auto;
+    position: relative;
+    font-family: 'Source Code Pro', Arial, serif, sans-serif;
+    max-width: 1080px;
 }
 li {
-  list-style: none;
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
 div {
-  position: relative;
+    position: relative;
 }
 header h1 {
-  margin: 0;
-  font-size: 93px;
-  letter-spacing: 21px;
-  text-align: center;
-  position: fixed;
-  background-color: white;
-  z-index: 1;
-  max-width: 1080px;
+    margin: 0;
+    font-size: 93px;
+    letter-spacing: 21px;
+    text-align: center;
+    position: fixed;
+    background-color: white;
+    z-index: 1;
+    max-width: 1080px;
 }
 header h2 {
-  float: right;
-  font-size: 70px;
-  margin: 12% 0%;
-  width: 50%;
-  padding: 0% 5%;
-  letter-spacing: 10px;
-  text-align: right;
+    float: right;
+    font-size: 70px;
+    margin: 12% 0%;
+    width: 50%;
+    padding: 0% 5%;
+    letter-spacing: 10px;
+    text-align: right;
 }
 div:first-of-type {
-  padding:0, 2%;
+    padding: 0, 2%;
 }
 nav ul {
-  padding:0;
+    padding: 0;
 }
 .summary {
-  width: 50%;
-  padding: 0%;
-  position: absolute;
-  top: 230px;
-  right: 435px;
-  text-align: right;
-  font-size: 20px;
+    width: 50%;
+    padding: 0%;
+    position: absolute;
+    top: 230px;
+    right: 435px;
+    text-align: right;
+    font-size: 20px;
 }
 .main.supporting {
-  clear:both;
+    clear: both;
 }
 .explanation, .benefits {
-  float: left;
-  width: 50%;
-  clear: both;
+    float: left;
+    width: 50%;
+    clear: both;
 }
 .participation, .requirements, .preamble {
-  float: right;
-  width: 50%;
-  clear: both;
+    float: right;
+    width: 50%;
+    clear: both;
 }
 .zen-resources h3, .design-archives h3 {
-  text-align: left;
+    text-align: left;
 }
 .zen-resources ul {
-  padding:0;
+    padding: 0;
 }
 .sidebar {
-  clear: both;
-  width: 35%;
-  position: absolute;
-  top:1930px;
-  padding: 0 2%;
-  background-color: grey;
+    clear: both;
+    width: 35%;
+    position: absolute;
+    top: 1930px;
+    padding: 0 2%;
+    background-color: grey;
 }
 .sidebar li {
-  padding: 1% 0;
+    padding: 1% 0;
 }
 footer {
-  float: right;
-  clear:both;
-  width: 50%;
-  text-align: center;
+    float: right;
+    clear: both;
+    width: 50%;
+    text-align: center;
 }
